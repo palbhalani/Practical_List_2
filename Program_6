@@ -1,0 +1,16 @@
+//Write a C++ program for setfill function.
+
+
+#include <iostream>
+#include <iomanip> 
+using namespace std;
+int main() 
+{
+    int number = 123;
+
+   cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+    cout << "The value is : " << setfill('#') << setw(10) << number << endl;
+    
+    return 0;
+}
