@@ -1,0 +1,17 @@
+//Write a C++ program to demonstrate use of constant arguments.
+
+
+#include<iostream>
+using namespace std;
+int test(const int);
+int main()
+{
+      cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+    cout<<test(5);
+    return 0;
+}
+int test(const int z)
+{
+    return z;
+}
