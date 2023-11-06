@@ -1,0 +1,21 @@
+//Write a C++ program to demonstrate use of default arguments.
+
+
+#include<iostream>
+using namespace std;
+int area(float, float PI=3.14);
+int main()
+{
+    float r;
+
+      cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+    cout<<"Enter the value of R : ";
+    cin>>r;
+    cout<<"Area of the circle is :: "<<area(r)<<endl;
+    return 0;
+}
+int area(float rad, float PI)
+{
+    return(PI * rad * rad);
+}
