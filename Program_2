@@ -1,0 +1,21 @@
+// Write a C++ program to access static variable using scope resolution operator with using class.
+
+#include<iostream>
+using namespace std;
+int fun()
+{
+	int a;
+	static int b;
+	cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+	cout<<"Value of a is non static::"<<a++<<endl;
+	cout<<"value of b is static:: "<<b++<<endl;
+}
+int main()
+{	
+	for(int i=0;i<5;i++)
+	{
+		fun();	
+	}
+	return 0;	
+}
