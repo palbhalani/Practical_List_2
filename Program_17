@@ -1,0 +1,24 @@
+// Write a C++ program to demonstrate use of Function Overloading.
+
+#include<iostream>
+using namespace std;
+class addition{
+	public:
+		int sum(int a,int b)
+		{
+			return a+b;
+		}
+		int sum(int a,int b,int c)
+		{
+			return a+b+c;
+		}
+};
+int  main()
+{
+     cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+	addition obj;
+	cout<<obj.sum(20,15)<<endl;
+	cout<<obj.sum(81,100);
+	return 0;
+}
