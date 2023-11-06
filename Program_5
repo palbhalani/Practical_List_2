@@ -1,0 +1,16 @@
+// Write a C++ program for setprecision() function.
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+	int a=1234;
+	float b=24.121234;
+  cout<<"My Name Is Bhalani Pal"<<endl;
+    cout<<"En_no :: 220130318080 "<<endl;
+	cout<<"The value of a is :: "<<setfill('@')<<setw(5)<<a<<endl;
+	cout<<"The value of b is :: "<<setprecision(5)<<b<<endl;
+	return 0;
+	
+}
